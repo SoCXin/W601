@@ -1,34 +1,27 @@
-﻿# [platform](https://github.com/tfzoo/platform) 
+﻿# [cluster](https://github.com/tfzoo/cluster) 
 
-[![sites](tfzoo/tfzoo.png)](http://www.tfzoo.com)
+#### [tensorflow models](https://github.com/tensorflow/models)
 
-## [内容简介](https://github.com/tfzoo/platform/wiki) 
+## [简介](https://github.com/tfzoo/cluster/wiki) 
 
-platform是tfzoo模型的运行平台，主要是嵌入式运行设备
+聚类是一种无监督学习任务，该算法基于数据的内部结构寻找观察样本的自然族群（即集群）。
+
+因为聚类是一种无监督学习（数据无标注），通常使用数据可视化评价结果。
+
+## [组成](tfzoo/) 
 
 
-## [platform](https://github.com/tfzoo/platform/wiki/index)
+#### K-means 
 
+#### Affinity Propagation
 
+#### Hierarchical / Agglomerative
 
-#### [RK3399.Pro](https://github.com/tfzoo/RK3399.Pro)
-
-高性能ARM处理器
-
-#### [树莓派 RPi](https://github.com/tfzoo/RPi)
-
-普及的单板计算机
-
-#### [NVIDIA Jetson](https://github.com/tfzoo/Jetson)
-
-高性能的加速设备
-
-#### [Intel Myriad](https://github.com/tfzoo/Myriad)
-
-高性能低功耗VPU
+#### DBSCAN
 
 ---
 
-###  	www.tfzoo.com 
-### 	qitas@qitas.cn
-### 	2018-12-3
+###  [TFZOO：tensorflow models zoo](http://www.tfzoo.com)
+####   qitas@qitas.cn
+####   天府动物园
+[![sites](tfzoo/tfzoo.png)](http://www.tfzoo.com)
