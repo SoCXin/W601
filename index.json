@@ -1,0 +1,37 @@
+{
+    "type":"SoC",
+    "name":"W601",
+    "title": "winnermicro W601 SoC",
+    "description":"winnermicro Wi-Fi SoC",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M3",
+        "Fmax":80,
+        "DMIPS": 100,
+        "CoreMark": 185
+    },
+    "manufacturer": {
+        "vendor":"winnermicro",
+        "homepage":"http://www.winnermicro.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/W601.git"
+    },
+    "version":"1.0.0",
+    "series":["W601","W600"],
+    "package":["QFN68","QFN32"],
+    "peripheral": ["Wi-Fi","ADC","UART","SPI","IIC"],
+    "temp": [-40,85],
+    "volt": [3.3,2.5],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M3",
+        "winnermicro","40nm",
+        "Wi-Fi","ADC","I2C","RTC","SPI","UART"
+    ]
+}
+
